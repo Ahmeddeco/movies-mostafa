@@ -592,10 +592,6 @@ video {
   }
 }
 
-.fixed{
-  position: fixed;
-}
-
 .flex{
   display: flex;
 }
@@ -635,12 +631,12 @@ video {
   line-height: 1;
 }
 
-.font-bold{
-  font-weight: 700;
-}
-
 .font-Regular{
   font-weight: 400;
+}
+
+.font-bold{
+  font-weight: 700;
 }
 
 .text-white{
