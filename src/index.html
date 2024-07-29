@@ -12,8 +12,10 @@
 		/>
 		<title>Stream Vibe</title>
 	</head>
-	<body class="bg-black-8 text-white container font-manrope">
-		<header class="flex items-center justify-between py-4">
+	<body class="bg-black-8 text-white font-manrope">
+		<header
+			class="fixed z-50 w-full flex items-center justify-between py-4 px-[164px]"
+		>
 			<!-- logo -->
 			<a href="/src//index.html">
 				<img
@@ -21,16 +23,24 @@
 					alt="logo"
 				/>
 			</a>
-			<nav class="">
+			<nav class="h-full">
 				<!-- links -->
-				<ul class="flex gap-8">
+				<ul
+					class="flex gap-8 px-[40px] py-[24px] bg-black-6 rounded-2xl border-black-12 border-4 divide-x"
+				>
 					<li class="font-Regular">
-						<a href="/src/index.html">Home</a>
+						<a
+							href="/src/index.html"
+							class="px-[24px] py-[14px] rounded-xl bg-black-12"
+							>Home</a
+						>
 					</li>
 					<li class="font-Regular">
 						<a href="/src/movies.html">Movies & Shows</a>
 					</li>
-					<li class="font-Regular"><a href="/src/support.html">Support</a></li>
+					<li class="font-Regular">
+						<a href="/src/support.html">Support</a>
+					</li>
 					<li class="font-Regular">
 						<a href="/src/subscriptions.html">Subscriptions</a>
 					</li>
@@ -50,6 +60,30 @@
 				/></a>
 			</div>
 		</header>
-		<h1 class="font-bold text-7xl">Home Page</h1>
+		<div
+			class="bg-heroBg w-screen h-screen bg-no-repeat bg-cover z-0 mx-auto bg-center relative"
+		>
+			<section
+				class="flex flex-col items-center justify-center gap-16 z-10 w-[1096px] mx-auto absolute bottom-0 right-1/2 translate-x-1/2 translate-y-1/2"
+			>
+				<h1 class="h1">The Best Streaming Experience</h1>
+				<p class="text-center p">
+					StreamVibe is the best streaming experience for watching your favorite
+					movies and shows on demand, anytime, anywhere. With StreamVibe, you
+					can enjoy a wide variety of content, including the latest
+					blockbusters, classic movies, popular TV shows, and more. You can also
+					create your own watchlists, so you can easily find the content you
+					want to watch.
+				</p>
+				<button class="bg-red-45 px-8 py-4 rounded-lg flex items-center gap-3">
+					<img
+						src="/src/assets/home/triAngle.webp"
+						alt="btn"
+					/>
+					<h6 class="h6">Start Watching Now</h6>
+				</button>
+			</section>
+		</div>
+		<div class="h-[5555px]"></div>
 	</body>
 </html>

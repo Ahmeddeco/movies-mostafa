@@ -3,3 +3,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.section {
+	@apply flex items-center justify-center min-h-screen w-full container;
+}
+.h1 {
+	@apply font-bold text-5xl;
+}
+
+.p{
+  @apply text-grey-60 font-Regular
+}

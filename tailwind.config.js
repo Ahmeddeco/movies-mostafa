@@ -46,9 +46,10 @@ module.exports = {
       semibold: '600',
       bold: '700',
     },
-    extend: {
-
+    backgroundImage: {
+      'heroBg': "url('/src/assets/home/hero.webp')",
     },
+    extend: {},
   },
   plugins: [],
 }
